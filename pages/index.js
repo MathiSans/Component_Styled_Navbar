@@ -1,15 +1,20 @@
 import styled from "styled-components";
 
 const StyledHeader = styled.h1`
-  display: flex;
-  justify-content: center;
+  color: var(--link-color);
   font-weight: 300;
+  text-align: center;
+`;
+
+const StyledDiv = styled.div`
+  background-color: var(--background-color);
+  padding-block: 1rem;
 `;
 
 export default function HomePage() {
   return (
-    <div>
-      <StyledHeader>Hello from Next.js</StyledHeader>
-    </div>
+    <StyledDiv>
+      <StyledHeader>Hello from 🐬</StyledHeader>
+    </StyledDiv>
   );
 }

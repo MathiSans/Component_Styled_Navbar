@@ -9,9 +9,9 @@ export default createGlobalStyle`
   }
 
   :root {
-    --link-color: darkgreen;
-    --link-hover: blue;
-    --background-color: pink;
+    --link-color: darkblue;
+    --link-hover: white;
+    --background-color: lightblue;
   }
 
   body {

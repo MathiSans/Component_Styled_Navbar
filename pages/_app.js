@@ -23,7 +23,7 @@ const StyledLink = styled(Link)`
 
   &:hover {
     color: var(--link-hover);
-    background-color: var(--background-color);
+    background-color: var(--link-color);
     transition: 0.1s;
   }
 `;
