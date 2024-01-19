@@ -1,7 +1,17 @@
+import styled from "styled-components";
+import "@fontsource-variable/jetbrains-mono";
+
+const StyledHeader = styled.h1`
+  display: flex;
+  justify-content: center;
+  font-family: "JetBrains Mono Variable", sans-serif;
+  font-weight: 300;
+`;
+
 export default function HomePage() {
   return (
     <div>
-      <h1>Hello from Next.js</h1>
+      <StyledHeader>Hello from Next.js</StyledHeader>
     </div>
   );
 }
