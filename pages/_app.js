@@ -3,7 +3,9 @@ import GlobalStyle from "../styles";
 import styled from "styled-components";
 
 const StyledNav = styled.nav`
-  border-bottom: solid 2px grey;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 0.05rem var(--link-color);
   padding: 1rem;
 `;
 
