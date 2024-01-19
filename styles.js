@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "@fontsource-variable/jetbrains-mono";
 
 export default createGlobalStyle`
   *,
@@ -16,5 +17,9 @@ export default createGlobalStyle`
   body {
     margin: 0;
     font-family: system-ui;
+  }
+
+  h1 {
+  font-family: "JetBrains Mono Variable", sans-serif;
   }
 `;
